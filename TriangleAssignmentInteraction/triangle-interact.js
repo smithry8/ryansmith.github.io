@@ -44,7 +44,7 @@ window.onload = function init() {
         dirs[1] = true;
        } else if (e.keyCode == 40) {
         dirs[1] = false;
-       } else if (e.keyCode == 30) {
+       } else if (e.keyCode == 32) {
         dirs[0] = null;
         dirs[1] = null;
        }
